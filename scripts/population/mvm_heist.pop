@@ -135,11 +135,10 @@ population
 					Health	200
 					Scale	1.1
 					Template	T_TFBot_Demo_Burst
-					Attributes	"IgnoreFlag"
 					ItemAttributes
 					{
 						ItemName	tf_weapon_grenadelauncher
-						"fire rate bonus"	0.1
+						"fire rate bonus"	0.2
 						"projectile spread angle penalty"	4
 					}
 					CharacterAttributes
@@ -163,15 +162,15 @@ population
 			{
 				TFBot
 				{
-					ClassIcon	heavyweapons
+					ClassIcon	heavy_crit
 					Health	500
 					Name	HeavyWeapons
 					Scale	1.3
 					Class	HeavyWeapons
-					Skill	Normal
+					Skill	Hard
 					BehaviorModifiers	Mobber
 					WeaponRestrictions	PrimaryOnly
-					Attributes	"IgnoreFlag"
+					Attributes	"UseBossHealthBar"
 					ItemAttributes
 					{
 						ItemName	natascha
