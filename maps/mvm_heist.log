@@ -1,0 +1,716 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.vmf
+Could not locate GameData file tf.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.prt...Building visibility clusters...
+done (0)
+material "skybox/sky_badlands_01rt" not found.
+Can't load skybox file skybox/sky_badlands_01 to build the default cubemap!
+Can't load skybox file skybox/sky_badlands_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13455 bytes)
+Error loading studio model "models/player/heavy.mdl"!
+Error loading studio model "models/props_spytech/doorframe004d.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 9 texinfos to 5
+Reduced 3 texdatas to 3 (64 bytes to 64)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.prt
+  54 portalclusters
+ 136 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2358
+Average clusters visible: 43
+Building PAS...
+Average clusters audible: 54
+visdatasize:1194  compressed from 864
+writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+194 faces
+64080 square feet [9227520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+194 patches before subdivision
+3488 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 132444, max 219
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(55448, 46311, 39640)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10955, 9115, 7805)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2715, 2251, 1925)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(713, 590, 504)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(198, 163, 139)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(55, 46, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 13, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 36/8192          432/98304    ( 0.4%) 
+brushsides             216/65536        1728/524288   ( 0.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               301/65536        3612/786432   ( 0.5%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                 5/12288         360/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  194/65536       10864/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              106/65536        5936/3670016  ( 0.2%) 
+leaves                 118/65536        3776/2097152  ( 0.2%) 
+leaffaces              235/65536         470/131072   ( 0.4%) 
+leafbrushes             84/65536         168/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1360/512000       5440/2048000  ( 0.3%) 
+edges                  773/256000       3092/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             27/32768         270/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           375/65536         750/131072   ( 0.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73672/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1194/16777216 ( 0.0%) 
+entdata               [variable]        5934/393216   ( 1.5%) 
+LDR ambient table      118/65536         472/262144   ( 0.2%) 
+HDR ambient table      118/65536         472/262144   ( 0.2%) 
+LDR leaf ambient       729/65536       20412/1835008  ( 1.1%) 
+HDR leaf ambient       118/65536        3304/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       13455/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 548
+Writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.vmf
+Could not locate GameData file tf.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.prt...Building visibility clusters...
+done (0)
+material "skybox/sky_badlands_01rt" not found.
+Can't load skybox file skybox/sky_badlands_01 to build the default cubemap!
+Can't load skybox file skybox/sky_badlands_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13455 bytes)
+Error loading studio model "models/player/heavy.mdl"!
+Error loading studio model "models/props_spytech/doorframe004d.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 9 texinfos to 5
+Reduced 3 texdatas to 3 (64 bytes to 64)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.prt
+  54 portalclusters
+ 136 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2358
+Average clusters visible: 43
+Building PAS...
+Average clusters audible: 54
+visdatasize:1194  compressed from 864
+writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+194 faces
+64080 square feet [9227520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+194 patches before subdivision
+3488 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 132444, max 219
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(55448, 46311, 39640)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10955, 9115, 7805)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2715, 2251, 1925)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(713, 590, 504)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(198, 163, 139)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(55, 46, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 13, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 36/8192          432/98304    ( 0.4%) 
+brushsides             216/65536        1728/524288   ( 0.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               301/65536        3612/786432   ( 0.5%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                 5/12288         360/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  194/65536       10864/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              106/65536        5936/3670016  ( 0.2%) 
+leaves                 118/65536        3776/2097152  ( 0.2%) 
+leaffaces              235/65536         470/131072   ( 0.4%) 
+leafbrushes             84/65536         168/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1360/512000       5440/2048000  ( 0.3%) 
+edges                  773/256000       3092/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             27/32768         270/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           375/65536         750/131072   ( 0.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73672/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1194/16777216 ( 0.0%) 
+entdata               [variable]        6215/393216   ( 1.6%) 
+LDR ambient table      118/65536         472/262144   ( 0.2%) 
+HDR ambient table      118/65536         472/262144   ( 0.2%) 
+LDR leaf ambient       729/65536       20412/1835008  ( 1.1%) 
+HDR leaf ambient       118/65536        3304/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       13455/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 548
+Writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.vmf
+Could not locate GameData file tf.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.prt...Building visibility clusters...
+done (0)
+material "skybox/sky_badlands_01rt" not found.
+Can't load skybox file skybox/sky_badlands_01 to build the default cubemap!
+Can't load skybox file skybox/sky_badlands_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (26395 bytes)
+Error loading studio model "models/player/heavy.mdl"!
+Error loading studio model "models/props_spytech/doorframe004d.mdl"!
+Error loading studio model "models/props_spytech/doorframe004c.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 10
+Reduced 4 texdatas to 4 (83 bytes to 83)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.prt
+ 110 portalclusters
+ 279 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.01%)
+Total clusters visible: 7293
+Average clusters visible: 66
+Building PAS...
+Average clusters audible: 109
+visdatasize:3953  compressed from 3520
+writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+455 faces
+168659 square feet [24286976.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+455 patches before subdivision
+10863 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 499229, max 282
+transfer lists:   3.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(207877, 174093, 149245)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(49192, 41007, 35122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13406, 11135, 9526)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3846, 3185, 2723)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1148, 948, 810)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(351, 289, 247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(109, 90, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(34, 28, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 9, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(4, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 71/8192          852/98304    ( 0.9%) 
+brushsides             426/65536        3408/524288   ( 0.7%) 
+planes                 206/65536        4120/1310720  ( 0.3%) 
+vertexes               683/65536        8196/786432   ( 1.0%) 
+nodes                  266/65536        8512/2097152  ( 0.4%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  455/65536       25480/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              235/65536       13160/3670016  ( 0.4%) 
+leaves                 269/65536        8608/2097152  ( 0.4%) 
+leaffaces              504/65536        1008/131072   ( 0.8%) 
+leafbrushes            158/65536         316/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3110/512000      12440/2048000  ( 0.6%) 
+edges                 1771/256000       7084/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             51/32768         510/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           750/65536        1500/131072   ( 1.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      215672/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3953/16777216 ( 0.0%) 
+entdata               [variable]        7711/393216   ( 2.0%) 
+LDR ambient table      269/65536        1076/262144   ( 0.4%) 
+HDR ambient table      269/65536        1076/262144   ( 0.4%) 
+LDR leaf ambient      1426/65536       39928/1835008  ( 2.2%) 
+HDR leaf ambient       269/65536        7532/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       26395/4194304  ( 0.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1260
+Writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.vmf
+Could not locate GameData file tf.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.prt...Building visibility clusters...
+done (0)
+material "skybox/sky_badlands_01rt" not found.
+Can't load skybox file skybox/sky_badlands_01 to build the default cubemap!
+Can't load skybox file skybox/sky_badlands_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (26950 bytes)
+Error loading studio model "models/player/heavy.mdl"!
+Error loading studio model "models/props_spytech/doorframe004d.mdl"!
+Error loading studio model "models/props_spytech/doorframe004c.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 10
+Reduced 4 texdatas to 4 (83 bytes to 83)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.prt
+ 110 portalclusters
+ 279 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.01%)
+Total clusters visible: 7293
+Average clusters visible: 66
+Building PAS...
+Average clusters audible: 109
+visdatasize:3953  compressed from 3520
+writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+461 faces
+169996 square feet [24479488.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+461 patches before subdivision
+10869 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 499508, max 282
+transfer lists:   3.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(208055, 174241, 149372)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(49245, 41051, 35160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13424, 11151, 9539)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3852, 3190, 2727)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1150, 950, 812)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(351, 289, 247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(109, 90, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(35, 28, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 9, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(4, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 72/8192          864/98304    ( 0.9%) 
+brushsides             432/65536        3456/524288   ( 0.7%) 
+planes                 206/65536        4120/1310720  ( 0.3%) 
+vertexes               691/65536        8292/786432   ( 1.1%) 
+nodes                  272/65536        8704/2097152  ( 0.4%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  461/65536       25816/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              241/65536       13496/3670016  ( 0.4%) 
+leaves                 276/65536        8832/2097152  ( 0.4%) 
+leaffaces              510/65536        1020/131072   ( 0.8%) 
+leafbrushes            159/65536         318/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3158/512000      12632/2048000  ( 0.6%) 
+edges                 1795/256000       7180/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             51/32768         510/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           750/65536        1500/131072   ( 1.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      215672/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3953/16777216 ( 0.0%) 
+entdata               [variable]        7932/393216   ( 2.0%) 
+LDR ambient table      276/65536        1104/262144   ( 0.4%) 
+HDR ambient table      276/65536        1104/262144   ( 0.4%) 
+LDR leaf ambient      1432/65536       40096/1835008  ( 2.2%) 
+HDR leaf ambient       276/65536        7728/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       26950/4194304  ( 0.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1272
+Writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.vmf
+Could not locate GameData file tf.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.prt...Building visibility clusters...
+done (0)
+material "skybox/sky_badlands_01rt" not found.
+Can't load skybox file skybox/sky_badlands_01 to build the default cubemap!
+Can't load skybox file skybox/sky_badlands_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (26947 bytes)
+Error loading studio model "models/player/heavy.mdl"!
+Error loading studio model "models/props_spytech/doorframe004d.mdl"!
+Error loading studio model "models/props_spytech/doorframe004c.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 10
+Reduced 4 texdatas to 4 (83 bytes to 83)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.prt
+ 110 portalclusters
+ 279 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.01%)
+Total clusters visible: 7293
+Average clusters visible: 66
+Building PAS...
+Average clusters audible: 109
+visdatasize:3953  compressed from 3520
+writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+461 faces
+168808 square feet [24308384.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+461 patches before subdivision
+10869 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 499639, max 282
+transfer lists:   3.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(208079, 174262, 149390)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(49268, 41070, 35176)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13427, 11153, 9542)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3853, 3191, 2728)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1151, 950, 812)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(351, 290, 247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(109, 90, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(35, 28, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 9, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(4, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 72/8192          864/98304    ( 0.9%) 
+brushsides             432/65536        3456/524288   ( 0.7%) 
+planes                 214/65536        4280/1310720  ( 0.3%) 
+vertexes               691/65536        8292/786432   ( 1.1%) 
+nodes                  272/65536        8704/2097152  ( 0.4%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  461/65536       25816/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              241/65536       13496/3670016  ( 0.4%) 
+leaves                 276/65536        8832/2097152  ( 0.4%) 
+leaffaces              510/65536        1020/131072   ( 0.8%) 
+leafbrushes            159/65536         318/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3158/512000      12632/2048000  ( 0.6%) 
+edges                 1795/256000       7180/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             51/32768         510/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           750/65536        1500/131072   ( 1.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      215672/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3953/16777216 ( 0.0%) 
+entdata               [variable]        7933/393216   ( 2.0%) 
+LDR ambient table      276/65536        1104/262144   ( 0.4%) 
+HDR ambient table      276/65536        1104/262144   ( 0.4%) 
+LDR leaf ambient      1432/65536       40096/1835008  ( 2.2%) 
+HDR leaf ambient       276/65536        7728/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       26947/4194304  ( 0.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1272
+Writing c:\program files (x86)\steam\steamapps\sourcemods\heist_fortress\maps\mvm_heist.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+1 second elapsed
