@@ -99,7 +99,7 @@ population
 		WaveSpawn
 		{
 			Name	wave3
-			TotalCurrency	0
+			TotalCurrency	200
 			TotalCount	8
 			MaxActive	2
 			SpawnCount	1
@@ -114,15 +114,15 @@ population
 					Health	100
 					Name	Spy
 					Class	Spy
-					Skill	Normal
+					Skill	Expert
 				}
 			}
 		}
 		WaveSpawn
 		{
 			Name	wave2
-			TotalCurrency	0
-			TotalCount	12
+			TotalCurrency	200
+			TotalCount	14
 			MaxActive	2
 			SpawnCount	1
 			WaitBeforeStarting	20
@@ -135,10 +135,54 @@ population
 					Health	200
 					Scale	1.1
 					Template	T_TFBot_Demo_Burst
+					Attributes	"IgnoreFlag"
+					ItemAttributes
+					{
+						ItemName	tf_weapon_grenadelauncher
+						"fire rate bonus"	0.1
+						"projectile spread angle penalty"	4
+					}
 					CharacterAttributes
 					{
-						"move speed penalty"	0.5
+						"move speed penalty"	0.4
 					}
+				}
+			}
+		}
+		WaveSpawn
+		{
+			Name	wave4
+			TotalCurrency	300
+			TotalCount	4
+			MaxActive	2
+			SpawnCount	1
+			WaitBeforeStarting	60
+			WaitBetweenSpawns	60
+			Where	spawnbot
+			Squad
+			{
+				TFBot
+				{
+					ClassIcon	heavyweapons
+					Health	500
+					Name	HeavyWeapons
+					Scale	1.3
+					Class	HeavyWeapons
+					Skill	Normal
+					BehaviorModifiers	Mobber
+					WeaponRestrictions	PrimaryOnly
+					Attributes	"IgnoreFlag"
+					ItemAttributes
+					{
+						ItemName	natascha
+						"minigun spinup time increased"	1.3
+						"spread penalty"	1.25
+					}
+					CharacterAttributes
+					{
+						"move speed penalty"	0.3
+					}
+					Item	"natascha"
 				}
 			}
 		}
