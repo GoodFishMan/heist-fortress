@@ -13,3 +13,4 @@ modelsounds.cache
 sound_workshop/sound/sound.cache
 sound/sound.cache
 stats.txt
+*.log
