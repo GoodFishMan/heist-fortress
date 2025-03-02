@@ -28,7 +28,7 @@ population
 		WaveSpawn
 		{
 			Name	Wave1
-			TotalCurrency	600
+			TotalCurrency	800
 			TotalCount	256
 			MaxActive	64
 			SpawnCount	4
@@ -99,7 +99,7 @@ population
 		WaveSpawn
 		{
 			Name	wave3
-			TotalCurrency	200
+			TotalCurrency	100
 			TotalCount	8
 			MaxActive	2
 			SpawnCount	1
@@ -121,7 +121,7 @@ population
 		WaveSpawn
 		{
 			Name	wave2
-			TotalCurrency	200
+			TotalCurrency	300
 			TotalCount	14
 			MaxActive	2
 			SpawnCount	1
@@ -134,6 +134,7 @@ population
 				{
 					Health	200
 					Scale	1.1
+					BehaviorModifiers	Mobber
 					Template	T_TFBot_Demo_Burst
 					ItemAttributes
 					{
@@ -151,7 +152,7 @@ population
 		WaveSpawn
 		{
 			Name	wave4
-			TotalCurrency	300
+			TotalCurrency	400
 			TotalCount	4
 			MaxActive	2
 			SpawnCount	1
