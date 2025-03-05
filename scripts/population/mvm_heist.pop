@@ -31,9 +31,9 @@ population
 			TotalCurrency	800
 			TotalCount	256
 			MaxActive	64
-			SpawnCount	4
+			SpawnCount	8
 			WaitBeforeStarting	0
-			WaitBetweenSpawns	8
+			WaitBetweenSpawns	10
 			Where	spawnbot
 			Squad
 			{
@@ -41,10 +41,9 @@ population
 				{
 					ClassIcon	sniper
 					Health	80
-					Name	Scout
+					Name	"SMG Sniper"
 					Class	Sniper
 					Skill	Normal
-					BehaviorModifiers	Mobber
 					WeaponRestrictions	SecondaryOnly
 					Tag	"bot_gatebot"
 					CharacterAttributes
@@ -55,11 +54,10 @@ population
 				TFBot
 				{
 					ClassIcon	soldier
-					Health	60
+					Health	40
 					Name	Soldier
 					Class	Soldier
 					Skill	Easy
-					BehaviorModifiers	Mobber
 					WeaponRestrictions	SecondaryOnly
 					CharacterAttributes
 					{
@@ -69,11 +67,10 @@ population
 				TFBot
 				{
 					ClassIcon	soldier
-					Health	60
+					Health	40
 					Name	Soldier
 					Class	Soldier
 					Skill	Easy
-					BehaviorModifiers	Mobber
 					WeaponRestrictions	SecondaryOnly
 					CharacterAttributes
 					{
@@ -83,11 +80,10 @@ population
 				TFBot
 				{
 					ClassIcon	soldier
-					Health	60
+					Health	40
 					Name	Soldier
 					Class	Soldier
 					Skill	Easy
-					BehaviorModifiers	Mobber
 					WeaponRestrictions	SecondaryOnly
 					CharacterAttributes
 					{
@@ -104,7 +100,7 @@ population
 			MaxActive	2
 			SpawnCount	1
 			WaitBeforeStarting	30
-			WaitBetweenSpawns	60
+			WaitBetweenSpawns	80
 			Where	spawnbot_mission_spy
 			Squad
 			{
@@ -124,7 +120,7 @@ population
 			TotalCurrency	300
 			TotalCount	14
 			MaxActive	2
-			SpawnCount	1
+			SpawnCount	2
 			WaitBeforeStarting	20
 			WaitBetweenSpawns	40
 			Where	spawnbot
@@ -132,14 +128,12 @@ population
 			{
 				TFBot
 				{
-					Health	200
-					Scale	1.1
 					BehaviorModifiers	Mobber
 					Template	T_TFBot_Demo_Burst
 					ItemAttributes
 					{
 						ItemName	tf_weapon_grenadelauncher
-						"fire rate bonus"	0.2
+						"clip size penalty"	0.8
 						"projectile spread angle penalty"	4
 					}
 					CharacterAttributes
@@ -153,36 +147,134 @@ population
 		{
 			Name	wave4
 			TotalCurrency	400
-			TotalCount	4
-			MaxActive	2
+			TotalCount	5
+			MaxActive	1
 			SpawnCount	1
-			WaitBeforeStarting	60
-			WaitBetweenSpawns	60
+			WaitBeforeStarting	120
+			WaitBetweenSpawns	180
 			Where	spawnbot
 			Squad
 			{
 				TFBot
 				{
 					ClassIcon	heavy_crit
-					Health	500
+					Health	800
 					Name	HeavyWeapons
-					Scale	1.3
+					Scale	1.2
 					Class	HeavyWeapons
 					Skill	Hard
 					BehaviorModifiers	Mobber
 					WeaponRestrictions	PrimaryOnly
+					Attributes	"MiniBoss"
 					Attributes	"UseBossHealthBar"
 					ItemAttributes
 					{
 						ItemName	natascha
-						"minigun spinup time increased"	1.3
-						"spread penalty"	1.25
+						"minigun spinup time increased"	1.4
+						"spread penalty"	1.4
 					}
 					CharacterAttributes
 					{
-						"move speed penalty"	0.3
+						"move speed penalty"	0.4
 					}
 					Item	"natascha"
+				}
+			}
+		}
+		WaveSpawn
+		{
+			Name	wave5
+			TotalCurrency	300
+			TotalCount	12
+			MaxActive	2
+			SpawnCount	1
+			WaitBeforeStarting	45
+			WaitBetweenSpawns	60
+			Support	1
+			Where	spawnbot
+			Squad
+			{
+				TFBot
+				{
+					ClassIcon	soldier_major_crits
+					Health	100
+					Name	Zapper
+					Class	Soldier
+					Skill	Expert
+					WeaponRestrictions	SecondaryOnly
+					ItemAttributes
+					{
+						ItemName	tf_weapon_rocketlauncher
+						"mark for death"	1
+						"slow enemy on hit major"	8
+						"fire rate penalty"	0.8
+					}
+					ItemAttributes
+					{
+						ItemName	"the righteous bison"
+						"fire rate penalty"	1.5
+						"slow enemy on hit major"	8
+						"mark for death"	1
+						"Projectile speed increased"	1.5
+					}
+					Item	"the righteous bison"
+					Item	"full metal drill hat"
+				}
+			}
+		}
+		WaveSpawn
+		{
+			Name	wave6
+			TotalCurrency	300
+			TotalCount	8
+			MaxActive	2
+			SpawnCount	2
+			WaitBeforeStarting	330
+			WaitBetweenSpawns	120
+			Support	1
+			Where	spawnbot
+			Squad
+			{
+				TFBot
+				{
+					ClassIcon	soldier_blackbox
+					Health	200
+					Name	Soldier
+					Scale	1.1
+					Class	Soldier
+					Skill	Expert
+					BehaviorModifiers	Mobber
+					Attributes	"SpawnWithFullCharge"
+					ItemAttributes
+					{
+						ItemName	"the battalion's backup"
+						"increase buff duration"	1.5
+					}
+					Item	"the black box"
+					Item	"the battalion's backup"
+					Item	"the well-rounded rifleman"
+				}
+			}
+		}
+		WaveSpawn
+		{
+			Name	wave7
+			TotalCurrency	400
+			TotalCount	20
+			MaxActive	6
+			SpawnCount	2
+			WaitBeforeStarting	60
+			WaitBetweenSpawns	30
+			Where	spawnbot_mission_sniper
+			Squad
+			{
+				TFBot
+				{
+					ClassIcon	sniper
+					Health	125
+					Name	Sniper
+					Class	Sniper
+					Skill	Normal
 				}
 			}
 		}
