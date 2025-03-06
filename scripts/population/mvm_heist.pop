@@ -10,6 +10,25 @@ population
 	CanBotsAttackWhileInSpawnRoom	no
 	Templates
 	{
+		T_TFBot_Mini_SentryBuster
+		{
+			ClassIcon	sentry_buster
+			Health	500
+			Name	"Mini Sentry Buster"
+			Class	Demoman
+			Skill	Expert
+			WeaponRestrictions	MeleeOnly
+			CharacterAttributes
+			{
+				"move speed bonus"	4
+				"damage force reduction"	0.75
+				"airblast vulnerability multiplier"	0.75
+				"override footstep sound set"	7
+				"cannot be backstabbed"	0
+				"Blast radius decreased"	0.5
+			}
+			Item	"the ullapool caber"
+		}
 	}
 	Wave
 	{
@@ -29,11 +48,11 @@ population
 		{
 			Name	Wave1
 			TotalCurrency	800
-			TotalCount	256
+			TotalCount	384
 			MaxActive	64
-			SpawnCount	8
+			SpawnCount	4
 			WaitBeforeStarting	0
-			WaitBetweenSpawns	10
+			WaitBetweenSpawns	4
 			Where	spawnbot
 			Squad
 			{
@@ -98,7 +117,7 @@ population
 			TotalCurrency	100
 			TotalCount	8
 			MaxActive	2
-			SpawnCount	1
+			SpawnCount	2
 			WaitBeforeStarting	30
 			WaitBetweenSpawns	80
 			Where	spawnbot_mission_spy
@@ -107,7 +126,7 @@ population
 				TFBot
 				{
 					ClassIcon	spy
-					Health	100
+					Health	125
 					Name	Spy
 					Class	Spy
 					Skill	Expert
@@ -119,7 +138,7 @@ population
 			Name	wave2
 			TotalCurrency	300
 			TotalCount	14
-			MaxActive	2
+			MaxActive	4
 			SpawnCount	2
 			WaitBeforeStarting	20
 			WaitBetweenSpawns	40
@@ -130,12 +149,6 @@ population
 				{
 					BehaviorModifiers	Mobber
 					Template	T_TFBot_Demo_Burst
-					ItemAttributes
-					{
-						ItemName	tf_weapon_grenadelauncher
-						"clip size penalty"	0.8
-						"projectile spread angle penalty"	4
-					}
 					CharacterAttributes
 					{
 						"move speed penalty"	0.4
@@ -147,8 +160,8 @@ population
 		{
 			Name	wave4
 			TotalCurrency	400
-			TotalCount	5
-			MaxActive	1
+			TotalCount	6
+			MaxActive	2
 			SpawnCount	1
 			WaitBeforeStarting	120
 			WaitBetweenSpawns	180
@@ -158,7 +171,7 @@ population
 				TFBot
 				{
 					ClassIcon	heavy_crit
-					Health	800
+					Health	2000
 					Name	HeavyWeapons
 					Scale	1.2
 					Class	HeavyWeapons
@@ -185,8 +198,8 @@ population
 		{
 			Name	wave5
 			TotalCurrency	300
-			TotalCount	12
-			MaxActive	2
+			TotalCount	10
+			MaxActive	3
 			SpawnCount	1
 			WaitBeforeStarting	45
 			WaitBetweenSpawns	60
@@ -197,7 +210,7 @@ population
 				TFBot
 				{
 					ClassIcon	soldier_major_crits
-					Health	100
+					Health	200
 					Name	Zapper
 					Class	Soldier
 					Skill	Expert
@@ -226,7 +239,7 @@ population
 		{
 			Name	wave6
 			TotalCurrency	300
-			TotalCount	8
+			TotalCount	12
 			MaxActive	2
 			SpawnCount	2
 			WaitBeforeStarting	330
@@ -238,7 +251,7 @@ population
 				TFBot
 				{
 					ClassIcon	soldier_blackbox
-					Health	200
+					Health	300
 					Name	Soldier
 					Scale	1.1
 					Class	Soldier
@@ -258,23 +271,21 @@ population
 		}
 		WaveSpawn
 		{
-			Name	wave7
-			TotalCurrency	400
-			TotalCount	20
-			MaxActive	6
+			Name	wave8
+			TotalCurrency	200
+			TotalCount	15
+			MaxActive	12
 			SpawnCount	2
-			WaitBeforeStarting	60
-			WaitBetweenSpawns	30
-			Where	spawnbot_mission_sniper
+			WaitBeforeStarting	400
+			WaitBetweenSpawns	4
+			Support	1
+			Where	spawnbot
 			Squad
 			{
 				TFBot
 				{
-					ClassIcon	sniper
-					Health	125
-					Name	Sniper
-					Class	Sniper
-					Skill	Normal
+					Template	T_TFBot_Mini_SentryBuster
+					Attributes	"SpawnWithFullCharge"
 				}
 			}
 		}
