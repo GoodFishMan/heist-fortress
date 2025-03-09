@@ -10,6 +10,25 @@ population
 	CanBotsAttackWhileInSpawnRoom	no
 	Templates
 	{
+		T_TFBot_Mini_SentryBuster
+		{
+			ClassIcon	sentry_buster
+			Health	500
+			Name	"Mini Sentry Buster"
+			Class	Demoman
+			Skill	Expert
+			WeaponRestrictions	MeleeOnly
+			CharacterAttributes
+			{
+				"move speed bonus"	4
+				"damage force reduction"	0.75
+				"airblast vulnerability multiplier"	0.75
+				"override footstep sound set"	7
+				"cannot be backstabbed"	0
+				"Blast radius decreased"	0.5
+			}
+			Item	"the ullapool caber"
+		}
 	}
 	Wave
 	{
@@ -30,10 +49,10 @@ population
 			Name	Wave1
 			TotalCurrency	800
 			TotalCount	384
-			MaxActive	32
+			MaxActive	64
 			SpawnCount	4
 			WaitBeforeStarting	0
-			WaitBetweenSpawns	3
+			WaitBetweenSpawns	4
 			Where	spawnbot
 			Squad
 			{
@@ -46,11 +65,6 @@ population
 					Skill	Normal
 					WeaponRestrictions	SecondaryOnly
 					Tag	"bot_gatebot"
-					ItemAttributes
-					{
-						ItemName	tf_weapon_smg
-						"spread penalty"	1.5
-					}
 					CharacterAttributes
 					{
 						"move speed penalty"	0.7
@@ -64,11 +78,6 @@ population
 					Class	Soldier
 					Skill	Easy
 					WeaponRestrictions	SecondaryOnly
-					ItemAttributes
-					{
-						ItemName	tf_weapon_shotgun_soldier
-						"spread penalty"	1.5
-					}
 					CharacterAttributes
 					{
 						"move speed penalty"	0.7
@@ -82,11 +91,6 @@ population
 					Class	Soldier
 					Skill	Easy
 					WeaponRestrictions	SecondaryOnly
-					ItemAttributes
-					{
-						ItemName	tf_weapon_shotgun_soldier
-						"spread penalty"	1.5
-					}
 					CharacterAttributes
 					{
 						"move speed penalty"	0.7
@@ -100,11 +104,6 @@ population
 					Class	Soldier
 					Skill	Easy
 					WeaponRestrictions	SecondaryOnly
-					ItemAttributes
-					{
-						ItemName	tf_weapon_shotgun_soldier
-						"spread penalty"	1.5
-					}
 					CharacterAttributes
 					{
 						"move speed penalty"	0.7
@@ -127,7 +126,7 @@ population
 				TFBot
 				{
 					ClassIcon	spy
-					Health	100
+					Health	125
 					Name	Spy
 					Class	Spy
 					Skill	Expert
@@ -176,7 +175,7 @@ population
 					Name	HeavyWeapons
 					Scale	1.2
 					Class	HeavyWeapons
-					Skill	Expert
+					Skill	Hard
 					BehaviorModifiers	Mobber
 					WeaponRestrictions	PrimaryOnly
 					Attributes	"MiniBoss"
@@ -185,7 +184,7 @@ population
 					{
 						ItemName	natascha
 						"minigun spinup time increased"	1.4
-						"spread penalty"	1.5
+						"spread penalty"	1.4
 					}
 					CharacterAttributes
 					{
@@ -202,7 +201,7 @@ population
 			TotalCount	10
 			MaxActive	3
 			SpawnCount	1
-			WaitBeforeStarting	60
+			WaitBeforeStarting	45
 			WaitBetweenSpawns	60
 			Support	1
 			Where	spawnbot
@@ -226,8 +225,8 @@ population
 					ItemAttributes
 					{
 						ItemName	"the righteous bison"
-						"fire rate penalty"	1.3
-						"slow enemy on hit major"	10
+						"fire rate penalty"	1.5
+						"slow enemy on hit major"	8
 						"mark for death"	1
 						"Projectile speed increased"	1.5
 					}
@@ -258,14 +257,35 @@ population
 					Class	Soldier
 					Skill	Expert
 					BehaviorModifiers	Mobber
+					Attributes	"SpawnWithFullCharge"
 					ItemAttributes
 					{
 						ItemName	"the battalion's backup"
-						"increase buff duration"	2.0
+						"increase buff duration"	1.5
 					}
 					Item	"the black box"
 					Item	"the battalion's backup"
 					Item	"the well-rounded rifleman"
+				}
+			}
+		}
+		WaveSpawn
+		{
+			Name	wave8
+			TotalCurrency	200
+			TotalCount	15
+			MaxActive	12
+			SpawnCount	2
+			WaitBeforeStarting	400
+			WaitBetweenSpawns	4
+			Support	1
+			Where	spawnbot
+			Squad
+			{
+				TFBot
+				{
+					Template	T_TFBot_Mini_SentryBuster
+					Attributes	"SpawnWithFullCharge"
 				}
 			}
 		}
