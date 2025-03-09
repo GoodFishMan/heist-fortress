@@ -68,7 +68,6 @@ vscript_convar_allowlist
     mp_windifference                                                  allowed
     mp_windifference_min                                              allowed
     mp_winlimit                                                       allowed
-    nav_generate_auto                                                 allowed
     obj_damage_factor                                                 allowed
     obj_sapper_amount                                                 allowed
     old_radiusdamage                                                  allowed
@@ -272,8 +271,6 @@ vscript_convar_allowlist
     tf_demoman_charge_regen_rate                                      allowed
     tf_deploying_bomb_delay_time                                      allowed
     tf_deploying_bomb_time                                            allowed
-    tf_disable_base_econ_items                                        allowed
-    tf_disable_holiday_restrictions                                   allowed
     tf_double_donk_window                                             allowed
     tf_dropped_weapon_lifetime                                        allowed
     tf_escort_recede_time                                             allowed
