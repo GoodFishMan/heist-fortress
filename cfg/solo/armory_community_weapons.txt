@@ -1,0 +1,27 @@
+armory_config
+{
+	"The Air Strike"
+	{
+		Cost 1000
+	}
+	"Ali Baba's Wee Booties"
+	{
+		Cost 1000
+	}
+	"The Amputator"
+	{
+		Cost 1000
+	}
+	"Bottled Sorrow"
+	{
+		Cost 1000
+	}
+	"Shocking Truth"
+	{
+		Cost 1000
+	}
+	"SMG2"
+	{
+		Cost 1000
+	}
+}

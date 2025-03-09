@@ -1,0 +1,24 @@
+"music.heist.bumpin_silent"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*music/bumpin_silent.wav"
+}
+
+"music.heist.bumpin_loud"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*music/bumpin_loud.wav"
+}
+
+"music.heist.bumpin_control"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*music/bumpin_control.wav"
+}
+

@@ -14,7 +14,7 @@ PlayerClass
 	"health_armor_max"		"125"
 	"armor_max"		"200"
 	"armortype"		"3"
-	"health_max"		"400"
+	"health_max"		"300"
 	//"armor_max"		"0"
 
 	// Grenades.
